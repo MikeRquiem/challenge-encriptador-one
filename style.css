@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #0a2b6c;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* Ocupa al menos el 80% del viewport para centrado vertical */
+    padding: 2rem;
+}
+
+h2, h3 {
+    text-align: center; /* Centra el texto */
+    margin: 0; /* Elimina margen predeterminado */
+}
+
+h2 {
+    font-size: 1.9rem;
+    margin-bottom: 0.5rem;
+    color: #0a2b6c; /* Color del título */
+}
+
+h3 {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #555; /* Color del subtítulo */
+}
+
+.content {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.334);
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    font-size: 1rem;
+}
+
+.buttons {
+    margin-top: 1rem;
+}
+
+button {
+    background-color: #0079ea;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #0a2b6c;
+}
+
+#message {
+    margin-top: 1rem;
+    color: red;
+    font-size: 1rem;
+}
+
+.hidden {
+    display: none;
+}
+
+#error {
+    display: none;
+    color: red;
+    margin-top: 1rem;
+}
+
+#output {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    background-color: #0a2b6c;
+    color: #fff;
+    padding: 1.27rem;
+}
